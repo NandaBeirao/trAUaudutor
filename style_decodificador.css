@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f9;
+}
+
+.container {
+    width: 375px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-color: #fff;
+    overflow-y: auto;
+    max-height: 100vh;
+}
+
+h1 {
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-container,
+.output-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 60px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 16px;
+    resize: none;
+    margin-bottom: 10px;
+}
+
+.hint {
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.encrypt {
+    background-color: #758BFD;
+    color: #fff;
+}
+
+.decrypt {
+    background-color: #fff;
+    color: #758BFD;
+    border: 1px solid #758BFD;
+}
+
+.message {
+    text-align: center;
+    padding: 20px;
+    background-color: #f4f4f9;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+
+.message p {
+    font-size: 16px;
+    margin: 0;
+}
+
+.message span {
+    font-size: 12px;
+    color: #666;
+}
+
+.output-container textarea {
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.copy {
+    background-color: #fff;
+    color: #758BFD;
+    border: 1px solid #758BFD;
+}

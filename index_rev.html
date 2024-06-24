@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+    <link rel="stylesheet" href="style_decodificador.css">
+</head>
+<body>
+    <div class="container">
+        <h1> TrAUaudutor </h1>
+        <div class="input-container">
+            <img src="logo_dog_tradutor.JPG" alt="Logo" class="logo">
+            <textarea id="inputText" placeholder="Digite seu texto"></textarea>
+            <p class="hint">Apenas letras minúsculas e sem acento.</p>
+            <button class="btn encrypt" onclick="encryptText()">Criptografar</button>
+            <button class="btn decrypt" onclick="decryptText()">Descriptografar</button>
+        </div>
+        <div class="output-container">
+            <textarea id="outputText" readonly>Resultado da criptografia ou descriptografia aparecerá aqui.</textarea>
+            <button class="btn copy" onclick="copyToClipboard()">Copiar</button>
+        </div>
+    </div>
+    <script src="decodificador_REV.js"></script>
+</body>
+</html>
