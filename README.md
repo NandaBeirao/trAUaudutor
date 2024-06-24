@@ -11,18 +11,20 @@ Tecnologias Utilizadas
 HTML: Estrutura da página web.
 CSS: Estilização da página web.
 JavaScript: Lógica de criptografia e descriptografia.
+
 Estrutura do Projeto
+
 HTML
-O arquivo index_rev.html contém a estrutura básica da aplicação, incluindo elementos como botões, caixas de texto e mensagens de instrução.
+O arquivo index.html contém a estrutura básica da aplicação, incluindo elementos como botões, caixas de texto e mensagens de instrução.
 
 CSS
 O arquivo style_decodificador.css estiliza a interface da aplicação, tornando-a amigável e visualmente agradável. Ele define estilos para os contêineres, botões e outros elementos da interface.
 
 JavaScript
-O arquivo decodificador_REV.js contém as funções que realizam a criptografia e descriptografia dos textos, bem como funções auxiliares para manipulação do DOM, como copiar o texto para a área de transferência.
+O arquivo decodificador.js contém as funções que realizam a criptografia e descriptografia dos textos, bem como funções auxiliares para manipulação do DOM, como copiar o texto para a área de transferência.
 
 Como Usar
-Abra o arquivo index_rev.html em um navegador web.
+Abra o arquivo index.html em um navegador web.
 Digite o texto que deseja criptografar ou descriptografar na caixa de texto.
 Clique no botão "Criptografar" para converter o texto em "au" e "AU".
 Clique no botão "Descriptografar" para converter o texto de volta ao original.
