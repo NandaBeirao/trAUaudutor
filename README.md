@@ -14,16 +14,16 @@ JavaScript: Lógica de criptografia e descriptografia.
 
 Estrutura do Projeto
 
-HTML
+HTML -
 O arquivo index.html contém a estrutura básica da aplicação, incluindo elementos como botões, caixas de texto e mensagens de instrução.
 
-CSS
+CSS - 
 O arquivo style_decodificador.css estiliza a interface da aplicação, tornando-a amigável e visualmente agradável. Ele define estilos para os contêineres, botões e outros elementos da interface.
 
-JavaScript
+JavaScript - 
 O arquivo decodificador.js contém as funções que realizam a criptografia e descriptografia dos textos, bem como funções auxiliares para manipulação do DOM, como copiar o texto para a área de transferência.
 
-Como Usar
+Como Usar - 
 Abra o arquivo index.html em um navegador web.
 Digite o texto que deseja criptografar ou descriptografar na caixa de texto.
 Clique no botão "Criptografar" para converter o texto em "au" e "AU".
