@@ -1,7 +1,7 @@
 # trAUaudutor
 
 Descrição
-O TrAUaudutor é uma aplicação web que permite criptografar e descriptografar textos utilizando um formato binário personalizado. Ele transforma texto normal em uma sequência de "au" e "AU", e vice-versa. Este projeto foi criado para facilitar a conversão de textos simples em um formato codificado de maneira divertida e simples.
+O TrAUaudutor é uma aplicação web que permite criptografar e descriptografar textos utilizando um formato binário personalizado. Ele transforma texto normal em uma sequência de "au" e "AU", e vice-versa. Este projeto foi criado para facilitar a conversão de textos simples em um formato codificado de maneira divertida e simples. Acesse em: https://nandabeirao.github.io/trAUaudutor
 
 Funcionalidades
 Criptografar Texto: Converte texto normal em um formato binário customizado utilizando "au" para 0 e "AU" para 1.
